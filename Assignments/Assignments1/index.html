@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #main {
+    width: 560px;
+    height: 250px;
+    margin: 40px auto;
+    padding: 25px 35px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 35px;
+    
+}
+
+p {
+    
+    margin-bottom: 20px;
+}
+          
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>FSD Quiz-1</h1>
+        <label for="">Name: </label>
+        <input type="text" placeholder="Enter Here" required>
+        <br><br>
+        <label for="">RollNO.: </label>
+        <input type="text"  required placeholder="Enter Here">
+        <br><br>
+        <label for="" name="Section">Section:  A</label>
+        <input type="radio" name="Section">
+        <label for="" > B</label>
+        <input type="radio" name="Section">
+        <label for="">C</label>
+        <input type="radio" name="Section">
+        <br><br>
+        <button onclick="start()">Click here To start</button>
+        <div id="ques"></div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
